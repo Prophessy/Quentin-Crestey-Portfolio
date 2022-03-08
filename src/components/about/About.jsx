@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/George-Clooney-est-le-plus-bel-homme-du-monde-c-est-scientifiquement-prouve.jpg'
+import ME from '../../assets/belhomme.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
