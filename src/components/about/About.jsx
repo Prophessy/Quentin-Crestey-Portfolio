@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/belhomme.jpg'
+import ME from '../../assets/cours-informatique-programmation.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {FiHeart} from 'react-icons/fi'
 
 const About = () => {
   return (
@@ -22,26 +22,28 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
-              <h5>Expérience</h5>
-              <small>1+ années d'experiences professionnelles</small>
+              <h5>Rigueur</h5>
+              <small>La satisfaction du travail bien fait</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>10+ clients dans le monde entier</small>
+              <h5>Curiosité</h5>
+              <small>Pour se perfectionner toujours plus</small>
             </article>
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projets</h5>
-              <small>10+ Projets complétés</small>
+              <FiHeart className='about__icon'/>
+              <h5>Passion</h5>
+              <small>L'essence de ce métier</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a corporis ipsam facilis perferendis libero, harum, suscipit aperiam modi laborum illo doloremque accusamus animi, minus ex totam eius fuga soluta?
+            Web développeur junior ayant un fort attrait pour l'intégration de site moderne et dynamique.<br/>
+            Si mes projets vous plaisent je serais ravi de vous aider dans les vôtres.<br/>
+            N'hésitez pas à prendre contact en cliquant sur le bouton juste en dessous ! :D
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Parlons</a>
+          <a href='#contact' className='btn btn-primary'>Contact</a>
         </div>
       </div>
     </section>

@@ -1,50 +1,53 @@
 import React from 'react'
 import './portfolio.css'
 import ohmyfood from '../../assets/ohmyfood_img.png'
-import creepyeyes from '../../assets/creepyeyes.png'
+import vizionair from '../../assets/vizionair.jpg'
+import Monsite from '../../assets/monsite.png'
+import booki from '../../assets/booki.png'
+import kanap from '../../assets/kanap.png'
+import piquante from '../../assets/piquante.png'
 
 const data = [
   {
     id: 1,
-    image: ohmyfood,
-    title: 'ohmyfood, maquette réalisé uniquement en HTML/CSS',
-    github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
-    demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
+    image: vizionair,
+    title: 'Vizionair, site réalisé avec WordPress',
+    demo: 'https://vizionair.fr/'
   },
   {
     id: 2,
-    image: creepyeyes,
-    title: 'CreepyEyes, réalisé avec HTML/CSS et Javascript',
-    github: 'https://github.com/Prophessy/ProphessyEyes',
-    demo: 'https://prophessy.github.io/ProphessyEyes/'
+    image: Monsite,
+    title: 'Mon site, réalisé avec Javascript, React, Html, CSS',
+    github: '',
+    demo: ''
   },
   {
     id: 3,
-    image: ohmyfood,
-    title: 'ohmyfood',
-    github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
-    demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
+    image: piquante,
+    title: 'Piiquante, création API avec MongoDB, Node.js, Express, Mongoose. Projet en cours, code à venir',
+    github: '#',
+    demo: '#'
   },
   {
     id: 4,
     image: ohmyfood,
-    title: 'ohmyfood',
+    title: 'OhMyFood, réalisé avec HTML/CSS',
     github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
     demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
   },
   {
     id: 5,
-    image: ohmyfood,
-    title: 'ohmyfood',
-    github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
-    demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
+    image: kanap,
+    title: 'Kanap, lié une API avec le frontend en Javascipt, gestion du panier, du localstorage,...',
+    github: 'https://github.com/Prophessy/QuentinCrestey_5_14022022',
+    demo: 'https://prophessy.github.io/QuentinCrestey_5_14022022/'
   },
   {
     id: 6,
-    image: ohmyfood,
-    title: 'ohmyfood',
-    github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
-    demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
+    image: booki,
+    title: 'Booki, mon premier site, réalisé en HTML et CSS',
+    github: 'https://github.com/Prophessy/QuentinCrestey_2_01012022',
+    demo: 'https://prophessy.github.io/QuentinCrestey_2_01012022/'
   },
 ]
 
