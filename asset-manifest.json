@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Quentin-Crestey-Portfolio/static/css/main.d7d47706.css",
-    "main.js": "/Quentin-Crestey-Portfolio/static/js/main.48e539d5.js",
+    "main.js": "/Quentin-Crestey-Portfolio/static/js/main.96f86ce4.js",
     "static/media/ohmyfood_img.png": "/Quentin-Crestey-Portfolio/static/media/ohmyfood_img.af8924404d9135a90bd0.png",
     "static/media/booki.png": "/Quentin-Crestey-Portfolio/static/media/booki.aef049f0e55a9d94d13e.png",
     "static/media/monsite.png": "/Quentin-Crestey-Portfolio/static/media/monsite.cf5e6f7af3c1d784b1e9.png",
@@ -16,10 +16,10 @@
     "static/media/piquante.png": "/Quentin-Crestey-Portfolio/static/media/piquante.f49f3d239bc08ff91b76.png",
     "index.html": "/Quentin-Crestey-Portfolio/index.html",
     "main.d7d47706.css.map": "/Quentin-Crestey-Portfolio/static/css/main.d7d47706.css.map",
-    "main.48e539d5.js.map": "/Quentin-Crestey-Portfolio/static/js/main.48e539d5.js.map"
+    "main.96f86ce4.js.map": "/Quentin-Crestey-Portfolio/static/js/main.96f86ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.d7d47706.css",
-    "static/js/main.48e539d5.js"
+    "static/js/main.96f86ce4.js"
   ]
 }
