@@ -18,7 +18,7 @@ const data = [
   {
     avatar: michael,
     name: 'Michaël Godinho, Mentor',
-    review: 'Quentin est un très bon étudiant, il est rigoureux, autonome et apprend rapidement.'
+    review: 'Quentin est un très bon étudiant, il est rigoureux, autonome et apprend rapidement. Je le recommande.'
   },
   {
     avatar: fabien,
