@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/cours-informatique-programmation.jpg'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {FiWatch} from 'react-icons/fi'
+import {BiSearchAlt} from 'react-icons/bi'
 import {FiHeart} from 'react-icons/fi'
 
 const About = () => {
@@ -21,12 +21,12 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FiWatch className='about__icon'/>
               <h5>Rigueur</h5>
               <small>La satisfaction du travail bien fait</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <BiSearchAlt className='about__icon'/>
               <h5>Curiosité</h5>
               <small>Pour se perfectionner toujours plus</small>
             </article>

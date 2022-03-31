@@ -23,12 +23,12 @@ const data = [
   {
     avatar: fabien,
     name: 'Fabien Vidale',
-    review: 'J"ai fais appel à Quentin pour mon projet de site vitrine. Il a su être réactif, disponible et a parfaitement répondu à ma demande.'
+    review: `J'ai fais appel à Quentin pour mon projet de site vitrine. Il a su être réactif, disponible et a parfaitement répondu à ma demande.`
   },
   {
     avatar: martin,
     name: 'Martin Hellburg',
-    review: 'Quentin est quelqu"un de motivé et de passionné. Sa bonne humeur en fait quelqu"un d"agréable à cotoyer quotidiennement.'
+    review: `Quentin est quelqu'un de motivé et de passionné. Sa bonne humeur en fait quelqu'un d'agréable à cotoyer quotidiennement.`
   },
 ]
 
