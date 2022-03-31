@@ -18,8 +18,8 @@ const data = [
     id: 2,
     image: Monsite,
     title: 'Mon site, réalisé avec Javascript, React, Html, CSS',
-    github: '',
-    demo: ''
+    github: 'https://github.com/Prophessy/Quentin-Crestey-Portfolio',
+    demo: 'https://prophessy.github.io/Quentin-Crestey-Portfolio/'
   },
   {
     id: 3,
