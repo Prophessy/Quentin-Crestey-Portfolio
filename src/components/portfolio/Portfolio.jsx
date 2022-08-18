@@ -5,47 +5,47 @@ import vizionair from '../../assets/vizionair.jpg'
 import Monsite from '../../assets/monsite.png'
 import booki from '../../assets/booki.png'
 import kanap from '../../assets/kanap.png'
-import piquante from '../../assets/piquante.png'
+import groupomania2 from '../../assets/groupomania2.jpg'
 
 const data = [
   {
     id: 1,
-    image: vizionair,
-    title: 'Vizionair, site réalisé avec WordPress',
-    demo: 'https://vizionair.fr/'
+    image: groupomania2,
+    title: 'Créer un réseau social (React, Node.js, MySQL, Express)',
+    github: 'https://github.com/Prophessy/QuentinCrestey_7_v3_15032022',
+    demo: 'https://www.youtube.com/watch?v=NRzQ6ZddFcU'
   },
   {
     id: 2,
     image: Monsite,
-    title: 'Mon site, réalisé avec Javascript, React, Html, CSS',
+    title: 'Mon site (React, Html, CSS)',
     github: 'https://github.com/Prophessy/Quentin-Crestey-Portfolio',
     demo: 'https://prophessy.github.io/Quentin-Crestey-Portfolio/'
   },
   {
-    id: 3,
-    image: piquante,
-    title: 'Piiquante, création API avec MongoDB, Node.js, Express, Mongoose. Projet en cours, code à venir',
-    github: '#',
-    demo: '#'
+    id: 1,
+    image: vizionair,
+    title: 'Vizionair (WordPress)',
+    demo: 'https://vizionair.fr/'
   },
   {
     id: 4,
     image: ohmyfood,
-    title: 'OhMyFood, réalisé avec HTML/CSS',
+    title: 'OhMyFood (HTML/CSS)',
     github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
     demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
   },
   {
     id: 5,
     image: kanap,
-    title: 'Kanap, lié une API avec le frontend en Javascipt, gestion du panier, du localstorage,...',
+    title: 'Kanap, front-end de site e-commerce (Javascript)',
     github: 'https://github.com/Prophessy/QuentinCrestey_5_14022022',
-    demo: 'https://prophessy.github.io/QuentinCrestey_5_14022022/'
+    demo: 'https://youtu.be/jY5bVvxrkyo'
   },
   {
     id: 6,
     image: booki,
-    title: 'Booki, mon premier site, réalisé en HTML et CSS',
+    title: 'Booki, réalisé en HTML et CSS',
     github: 'https://github.com/Prophessy/QuentinCrestey_2_01012022',
     demo: 'https://prophessy.github.io/QuentinCrestey_2_01012022/'
   },
