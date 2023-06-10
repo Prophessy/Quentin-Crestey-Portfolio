@@ -1,10 +1,14 @@
 .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2.5rem;
+    padding-bottom: 100px;
 }
 
 .portfolio__item {
+    width: 500px;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
@@ -32,20 +36,3 @@
     margin-bottom: 1rem;
 }
 
-/*============================ MEDIA QUERIES (MEDIUM DEVICES) ============================*/
-
-@media screen and (max-width: 1024px) {
-   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-   }
-}
-
-/*============================ MEDIA QUERIES (SMALL DEVICES) ============================*/
-
-@media screen and (max-width: 600px) {
-   .portfolio__container {
-       grid-template-columns: 1fr;
-       gap: 1rem;
-   }
-}

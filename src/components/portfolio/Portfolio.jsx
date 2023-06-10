@@ -6,8 +6,28 @@ import Monsite from '../../assets/monsite.png'
 import booki from '../../assets/booki.png'
 import kanap from '../../assets/kanap.png'
 import groupomania2 from '../../assets/groupomania2.jpg'
+import wcs from '../../assets/wcs.png'
+import toastateimg from '../../assets/toastate.jpg'
 
-const data = [
+const toastate = [
+  {
+    id: 1,
+    image: toastateimg,
+    title: 'Wellness Story plateforme de solution innovante pour le bien-être. Site en construction, sortie prévu pour septembre 2023. Réalisé avec HTML / CSS / JS / TOASTFRONT (côté front-end)',
+    demo: 'https://www.wellnessstory.co/'
+  },
+]
+
+const wildCodeSchool = [
+  {
+    id: 1,
+    image: wcs,
+    title: `Formation Wild Code School. Les projets étant essentiellement des quêtes, voici un lien du programme de l'année`,
+    demo: 'https://drive.google.com/drive/folders/10nnBrrm-E__TmcGGps3kAKGOmEVO8hw6'
+  },
+]
+
+const openClassrooms = [
   {
     id: 1,
     image: groupomania2,
@@ -17,33 +37,26 @@ const data = [
   },
   {
     id: 2,
-    image: Monsite,
-    title: 'Mon site (React, Html, CSS)',
-    github: 'https://github.com/Prophessy/Quentin-Crestey-Portfolio',
-    demo: 'https://prophessy.github.io/Quentin-Crestey-Portfolio/'
-  },
-  {
-    id: 1,
     image: vizionair,
     title: 'Vizionair (WordPress)',
     demo: 'https://vizionair.fr/'
   },
   {
-    id: 4,
+    id: 3,
     image: ohmyfood,
     title: 'OhMyFood (HTML/CSS)',
     github: 'https://github.com/Prophessy/QuentinCrestey_3_01012022',
     demo: 'https://prophessy.github.io/QuentinCrestey_3_01012022/'
   },
   {
-    id: 5,
+    id: 4,
     image: kanap,
     title: 'Kanap, front-end de site e-commerce (Javascript)',
     github: 'https://github.com/Prophessy/QuentinCrestey_5_14022022',
     demo: 'https://youtu.be/jY5bVvxrkyo'
   },
   {
-    id: 6,
+    id: 5,
     image: booki,
     title: 'Booki, réalisé en HTML et CSS',
     github: 'https://github.com/Prophessy/QuentinCrestey_2_01012022',
@@ -53,29 +66,70 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
-      <h5>Mes travaux récents</h5>
-      <h2>Portfolio</h2>
+      <section id='portfolio'>
 
-      <div className="container portfolio__container">
-        {
-          data.map(({id, image, title, github, demo}) =>{
-            return (
-              <article key={id} className='portfolio__item'>
-                <div className="portfolio__item-image">
-                  <img src={image} alt={title}/>
-                </div>
-                <h3>{title}</h3>
-                <div className='portfolio__item-cta'>
-                  <a href={github} target='_blank' className='btn'>Github</a>
-                  <a href={demo} target='_blank' className='btn btn-primary'>Demo</a>
-                </div>
-              </article>
-            )
-          })
-        }
-      </div>
-    </section>
+        <h2>Notre projet chez toastate</h2>
+
+        <div className="container portfolio__container">
+          {
+            toastate.map(({id, image, title, demo}) =>{
+              return (
+                <article key={id} className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title}/>
+                  </div>
+                  <h3>{title}</h3>
+                  <div className='portfolio__item-cta'>
+                    <a href={demo} target='_blank' className='btn btn-primary'>Demo</a>
+                  </div>
+                </article>
+              )
+            })
+          }
+        </div>
+
+        <h2>Mes projets à la Wild Code School</h2>
+
+        <div className="container portfolio__container">
+          {
+            wildCodeSchool.map(({id, image, title, demo}) =>{
+              return (
+                <article key={id} className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title}/>
+                  </div>
+                  <h3>{title}</h3>
+                  <div className='portfolio__item-cta'>
+                    <a href={demo} target='_blank' className='btn btn-primary'>Lien du programme</a>
+                  </div>
+                </article>
+              )
+            })
+          }
+        </div>
+
+        <h5>! certains projets étant anciens, ils ne sont peut-être plus à jours !</h5>
+        <h2>Mes projets formation OpenClassrooms</h2>
+
+        <div className="container portfolio__container">
+          {
+            openClassrooms.map(({id, image, title, github, demo}) =>{
+              return (
+                <article key={id} className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title}/>
+                  </div>
+                  <h3>{title}</h3>
+                  <div className='portfolio__item-cta'>
+                    {github ? <a href={github} target='_blank' className='btn'>Github</a> : ``}
+                    <a href={demo} target='_blank' className='btn btn-primary'>Demo</a>
+                  </div>
+                </article>
+              )
+            })
+          }
+        </div>
+      </section>
   )
 }
 
