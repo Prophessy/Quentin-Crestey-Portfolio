@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Quentin-Crestey-Portfolio/static/css/main.d58e45fa.css",
-    "main.js": "/Quentin-Crestey-Portfolio/static/js/main.95c2b753.js",
+    "main.css": "/Quentin-Crestey-Portfolio/static/css/main.6786432c.css",
+    "main.js": "/Quentin-Crestey-Portfolio/static/js/main.cb62da92.js",
     "static/media/ohmyfood_img.png": "/Quentin-Crestey-Portfolio/static/media/ohmyfood_img.af8924404d9135a90bd0.png",
     "static/media/groupomania2.jpg": "/Quentin-Crestey-Portfolio/static/media/groupomania2.628c09928e03ff51262f.jpg",
+    "static/media/toastate.jpg": "/Quentin-Crestey-Portfolio/static/media/toastate.4a4367ac0168b384e87b.jpg",
     "static/media/booki.png": "/Quentin-Crestey-Portfolio/static/media/booki.aef049f0e55a9d94d13e.png",
     "static/media/monsite.png": "/Quentin-Crestey-Portfolio/static/media/monsite.cf5e6f7af3c1d784b1e9.png",
     "static/media/moi-PhotoRoom-removebg-preview (3).png": "/Quentin-Crestey-Portfolio/static/media/moi-PhotoRoom-removebg-preview (3).6d6e48dfc0da8a8915ea.png",
     "static/media/martin.jpg": "/Quentin-Crestey-Portfolio/static/media/martin.f1649da26910666c4f4e.jpg",
     "static/media/cours-informatique-programmation.jpg": "/Quentin-Crestey-Portfolio/static/media/cours-informatique-programmation.5b5b2a08833e36b3ae3c.jpg",
     "static/media/vizionair.jpg": "/Quentin-Crestey-Portfolio/static/media/vizionair.17c798a4989ec3d2f214.jpg",
+    "static/media/CV.pdf": "/Quentin-Crestey-Portfolio/static/media/CV.c0a53fd5d79f82eba227.pdf",
     "static/media/kanap.png": "/Quentin-Crestey-Portfolio/static/media/kanap.edd79d97a5f3c8b9be93.png",
-    "static/media/CV.pdf": "/Quentin-Crestey-Portfolio/static/media/CV.22f8b7038d75781614d8.pdf",
     "static/media/michael.jpg": "/Quentin-Crestey-Portfolio/static/media/michael.0eed5c35f66c894097b6.jpg",
     "static/media/fabien.png": "/Quentin-Crestey-Portfolio/static/media/fabien.518bcd3623a9f7aff4dd.png",
+    "static/media/wcs.png": "/Quentin-Crestey-Portfolio/static/media/wcs.e5f3467ae81cfb7d275d.png",
     "index.html": "/Quentin-Crestey-Portfolio/index.html",
-    "main.d58e45fa.css.map": "/Quentin-Crestey-Portfolio/static/css/main.d58e45fa.css.map",
-    "main.95c2b753.js.map": "/Quentin-Crestey-Portfolio/static/js/main.95c2b753.js.map"
+    "main.6786432c.css.map": "/Quentin-Crestey-Portfolio/static/css/main.6786432c.css.map",
+    "main.cb62da92.js.map": "/Quentin-Crestey-Portfolio/static/js/main.cb62da92.js.map"
   },
   "entrypoints": [
-    "static/css/main.d58e45fa.css",
-    "static/js/main.95c2b753.js"
+    "static/css/main.6786432c.css",
+    "static/js/main.cb62da92.js"
   ]
 }
